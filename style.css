@@ -80,7 +80,7 @@ header {
 
 .top-button p {
   color: var(--blanco);
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: 30px;
 }
 
@@ -133,7 +133,6 @@ article {
 }
 
 .section-items > li {
-  margin-bottom: 10px;
   border-bottom: 0.5px solid black;
 }
 
