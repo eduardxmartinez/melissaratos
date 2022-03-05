@@ -10,44 +10,51 @@
     <link rel="stylesheet" type="text/css" href="./font/flaticon.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <button onclick="top" class="top-button"><p>^</p></button>
     <header>
         <div class="header-content">
             <img src="./assets/logo.svg" alt="Logo Melissaratos" class="header-logo" width="90px">
-        </div>
-        <div class="button-container">
-            <button class="top-button">
-                <p>^</p>
-            </button>
         </div>
     </header>
     <nav class="nav">
         <div class="nav-container">
             <ul class="nav-list">
-                <li><a href="" class="link">Cheesecakes</a></li>
-                <li><a href="" class="link">Pay</a></li>
-                <li><a href="" class="link">Brownies & Brookies</a></li>
-                <li><a href="" class="link">Galletas</a></li>
+                <li><a href="#section-1" class="link">Cheesecakes</a></li>
+                <li><a href="#section-2" class="link">Pay</a></li>
+                <li><a href="#section-3" class="link">Brownies & Brookies</a></li>
+                <li><a href="#section-4" class="link">Galletas</a></li>
             </ul>
         </div>
     </nav>
     <main>
-        <article class="section-1">
+        <section class="importante">
+            <p class="section-title">Importante:</p>
+            <ul>
+                <li>Los pedidos son con 3 días de anticipación</li>
+                <li>Mayoreo a partir de 15 galletas</li>
+                <li>Servicio a domicilio y montaje incluido</li>
+                <li>Las galletas pueden durar hasta 8 días en refrigeración, calentar antes de servir para mejorar la experiencia</li>
+                <li>Los precios están sujetos a cambios debido a las alzas de los insumos</li>
+                
+            </ul>
+        </section>
+        <article id="section-1">
             <p class="section-title">Cheesecakes</p>
             <ul class="section-items"></ul>
         </article>
-        <article class="section-2">
+        <article id="section-2">
             <p class="section-title">Pay</p>
             <ul class="section-items"></ul>
         </article>
-        <article class="section-3">
+        <article id="section-3">
             <p class="section-title">Brownies & Brookies</p>
             <ul class="section-items"></ul>
         </article>
-        <article class="section-4">
+        <article id="section-4">
             <p class="section-title">Galletas</p>
             <p class="subsection">Chunky</p>
             <ul class="section-items">
@@ -59,9 +66,9 @@
                         de Himalaya
                     </p>
                     <ul>
-                        <li class="description">Precio mayoreo:</li>
-                        <li class="description">Precio recomendado al público:</li>
-                        <li class="description">Gancia por unidad:</li>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$14</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$25</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$11</></li>
                     </ul>
                 </li>
                 <li>
@@ -71,6 +78,11 @@
                         chocolate con leche como
                         decoración
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$35</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$50</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$15</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Skippy Reeses</p>
@@ -79,6 +91,11 @@
                         de peanut butter y un
                         reeses cup de decoración
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$40</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$60</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$20</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Gloria Lottus</p>
@@ -87,6 +104,11 @@
                         dulce de leche y una galleta
                         lottus
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$35</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$55</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$20</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Birthday Goldencake</p>
@@ -95,6 +117,11 @@
                         con chocolate blanco y
                         una golden oreo
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$15</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$30</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$15</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Smore's</p>
@@ -102,6 +129,11 @@
                         Galleta dulce rellena de brownie triple chocolate
                         En su cubierta tiene nutella, trozos de galleta lottus y crema de bombón flameada
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$39</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$60+</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$21+</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Brookie Cookie</p>
@@ -110,18 +142,33 @@
                         nutella y chispas de chocolate
                         hersheys
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$19</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$40</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$21</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Chunky m&m's</p>
                     <p class="description">
                         Galleta base vainilla con chispas de chocolate amargo y m&ms tradicionales
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$25</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$45</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$20</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Matilda</p>
                     <p class="description">
                         Galleta base chocolate con chispas de chocolate semiamargo, inyectada de nutella
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$19</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$40</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$21</></li>
+                    </ul>
                 </li>
                 <li>
                     <p class="section-subtitle">Tortuga</p>
@@ -129,6 +176,11 @@
                         Galleta dulce a base de nuez, bañada en nutella, chocolate, caramelo toffee, nuez y chispas de
                         chocolate semi amargo
                     </p>
+                    <ul>
+                        <li class="description-price">Precio mayoreo: <span class="bold">$29</></li>
+                        <li class="description-price">Precio recomendado al público: <span class="bold">$55</></li>
+                        <li class="description-price">Gancia por unidad: <span class="bold">$26</></li>
+                    </ul>
                 </li>
             </ul>
             <p class="subsection">Tradicionales</p>
@@ -142,6 +194,14 @@
                 <li>
                     <p class="section-subtitle">Vainilla - Chispas de Chocolate</p>
                 </li>
+                <ul>
+                    <li class="description-price">Precio mayoreo: <span class="bold">$14</>
+                    </li>
+                    <li class="description-price">Precio recomendado al público: <span class="bold">$25+</>
+                    </li>
+                    <li class="description-price">Gancia por unidad: <span class="bold">$11+</>
+                    </li>
+                </ul>
             </ul>
         </article>
     </main>
